@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="side_bar">
+        <div>
+            <img src="./imgs/bars-solid-full.svg" id="bar1" >
+        </div>
+        <div id="mt1">
+            <img src="./imgs/list-check-solid-full.svg" id="list_bar">
+        </div>
+        <img src="./imgs/gear-solid-full.svg" id="gear">
+    </div>
+
+    <div id="side_bar2">
+        <div id="profile">
+            <img src="./imgs/bars-solid-full.svg" id="bar2">
+            <div>
+                <img src="./imgs/profile.jpg">
+                <p class="sb2p">Jane Doe</p>
+                <p class="sb2p">janedoe@gmail.com</p>
+            </div>
+        </div>
+        <div id="mt2">
+            <img src="./imgs/list-check-solid-full.svg" id="list_bar2">
+            <p>My Tasks</p>
+        </div>
+        <div id="setting">
+            <img src="./imgs/gear-solid-full.svg" id="gear2">
+            <p class="sb2p">Settings</p>
+        </div>
+    </div>
+    
+    <div id="main">
+        <h2>My Tasks</h2>
+        <div id="d1">
+            <input type="text" placeholder="Type your task here.." id="task_text">
+            <button id="add">+ Add</button>
+        </div>
+        <div id="befor">
+            <div id="d2">
+                <div>
+                    <img src="./imgs/man.png" id="man">
+                </div>
+                <p id="d2p">
+                    <i>Empty as my motivation on Monday</i> 😅.
+                    <i>Let's start alding stuff!</i>
+                </p>
+            </div>
+        </div>
+        <div id="d3">
+            <div id="top">
+                <div id="btns">
+                    <button class="btn" id="all">All</button>
+                    <button class="btn" id="active">Active</button>
+                    <button class="btn" id="completed">Completed</button>
+                </div>
+                <p id="task_left">0 tasks left</p>
+            </div>
+        </div>
+        <div id="tasks">
+            
+        </div>
+    </div>
+
+    <div id="left_bar">
+        <img src="./imgs/moon-regular-full.svg" id="view_mode">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
